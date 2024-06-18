@@ -1,0 +1,15 @@
+.body {
+    color: #0688c9;
+    background-color: #ebf2f5;
+    font-family: arial;
+}
+
+.header {
+    font-size: 55px;
+}
+
+.list_items {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
