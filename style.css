@@ -1,22 +1,57 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+
 .body {
     color: #0688c9;
-    background-color: #ebf2f5;
     font-family: arial;
     font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
 }
 
 .header {
+    color: darkslateblue;
     font-size: 55px;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px 5px 10px 5px;
+    border: 3px solid darkslateblue;
+    border-radius: 2500px;
 }
 
-.list_items {
+.list_section {
+    margin-top: -50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px;
+    text-align: center;
+}
+
+.list_item {
+    background-color: darkslateblue;
+    width: 500px;
+    height: auto;
+    display: inline-block;
+    border-radius: 2500px;
+    padding: 30px;
+    margin: 10px;
     font-size: 20px;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #7bbf5c;
+    font-weight: lighter;
+}
+
+.list_item:hover {
+    background-color: darkgray;
 }
 
 #ingredients, #steps{
     font-family: 'Snell Roundhand', cursive; 
     font-size: 28px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
 }
